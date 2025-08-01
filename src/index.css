@@ -11,7 +11,7 @@
   transform: translateX(-50%);
   min-width: 60%;
   max-width: 90%;
-  background: rgba(30,30,30,0.85);
+  background: rgba(255, 139, 15, 0.85);
   color: #fff;
   display: flex;
   align-items: center;
@@ -19,8 +19,8 @@
   opacity: 0;
   font-size: 1.05rem;
   font-family: "Special Gothic Expanded One", sans-serif;
-  font-weight: 700;
-  letter-spacing: 1px;
+  font-weight: medium;
+  letter-spacing: 2px;
   border-radius: 0.4rem;
   pointer-events: none;
   transition: opacity 0.3s;
@@ -43,17 +43,20 @@
   transform: scale(1.04);
 }
 /* Strong white glow for image hover */
-.glow-hover {
+/* .glow-hover {
   transition: box-shadow 0.2s, background 0.2s;
-}
+} */
 .glow-hover:hover {
-  box-shadow: 0 0 12px 2px #fff;
+  box-shadow: 0 0 20px 0px #d7d0d0;
   background: #fff4;
 }
 
 
 @import "tailwindcss";
 body {
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
   font-family: "Special Gothic Expanded One", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -66,7 +69,8 @@ body {
 } 
 
 .image-placeholder {
-  background-color: #e2e8f0; /* Lighter blue-gray for placeholders */
+  /* background-color: #e2e8f0;  */
+
   display: flex;
   align-items: center;
   justify-content: center;
