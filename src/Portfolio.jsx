@@ -24,7 +24,7 @@ const Portfolio = () => {
     imageArray.map((image, index) => (
       <div
         key={index}
-        className="image-hover-container cursor-pointer w-[28vh] h-[28vh] md:w-[32vh] md:h-[32vh] lg:w-[56vh] lg:h-[36vh] xl:w-[64vh] xl:h-[40vh] mb-4 mx-2"
+        className="image-hover-container cursor-pointer w-[28vh] h-[28vh] md:w-[200px] md:h-[200px] lg:w-[250px] lg:h-[250px] xl:w-[350px] xl:h-[350px] mb-4 mx-2"
         onClick={() => openModal(image)}
       >
         <ImagePlaceholder
